@@ -1,0 +1,4 @@
+pytest
+pytelegrambotapi
+numpy
+django

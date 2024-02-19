@@ -1,0 +1,30 @@
+pip-это установщик пакетов(инструментов)
+ubuntu-> sudo apt install python3-pip
+mac-> уже установлен 
+
+---------------------------------------------------------
+
+
+venv- это виртуальное окружение куда устанавливааем пакеты
+Установка  
+ubuntu-> sudo apt install python3-venv
+mac->brew install virtualenv
+
+
+-------------------------------------------------------------
+
+
+poetry- это установщик пакетов
+Установка
+ubuntu->sudo apt installpython3-poetry
+mac-> brew install poetry
+
+potry init-  инициализирует нашу директорию как проект(создается файл-project.toml)
+poetry shell-  он создает вертуальное окружение и активирует его можно использовать  poetry env use python(версия питона)
+poetry add name-установка пакета"name",poetry.lock( подробная информация о пакетах и зависимостях которые мы установили)
+xargs poetry add<requirements.txt(файл с пакетами которые установлены в проекте илит нужно установить)- устанавливает пакеты из файла requirements.txt  при  помощи  poetry
+exit exit  выход из оболочки 
+
+
+
+
