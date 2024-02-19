@@ -8,4 +8,10 @@
 
 
 
+Закидываем изменения в готовый репазиторий 
+1 git add git_github.txt (название файла)
+2 git commit  -m 'update fi
+
+
+
 
